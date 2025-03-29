@@ -78,6 +78,10 @@
       font-size: 0.7rem;
       flex-direction: column;
 
+      .address {
+        text-decoration: none;
+      }
+
       .map-box {
         margin-top: 4px;
 
@@ -188,6 +192,7 @@
 
       .address {
         font-size: 1.2rem;
+        text-decoration: none;
       }
       .map-box {
         margin-top: 4px;
@@ -293,6 +298,7 @@
 
       .address {
         font-size: 0.9rem;
+        text-decoration: none;
       }
 
       .map-box {

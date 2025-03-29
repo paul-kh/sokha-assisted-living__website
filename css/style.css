@@ -399,6 +399,8 @@ body {
     .section__contact .address-info-box {
       font-size: 0.7rem;
       flex-direction: column; }
+      .section__contact .address-info-box .address {
+        text-decoration: none; }
       .section__contact .address-info-box .map-box {
         margin-top: 4px; }
         .section__contact .address-info-box .map-box iframe {
@@ -459,7 +461,8 @@ body {
     .section__contact .address-info-box {
       flex-direction: column; }
       .section__contact .address-info-box .address {
-        font-size: 1.2rem; }
+        font-size: 1.2rem;
+        text-decoration: none; }
       .section__contact .address-info-box .map-box {
         margin-top: 4px; }
         .section__contact .address-info-box .map-box iframe {
@@ -516,7 +519,8 @@ body {
       font-size: 0.7rem;
       flex-direction: column; }
       .section__contact .address-info-box .address {
-        font-size: 0.9rem; }
+        font-size: 0.9rem;
+        text-decoration: none; }
       .section__contact .address-info-box .map-box {
         margin-top: 4px; }
         .section__contact .address-info-box .map-box iframe {
