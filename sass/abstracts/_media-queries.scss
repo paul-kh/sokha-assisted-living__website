@@ -1,0 +1,320 @@
+@media (max-width: 800px) {
+  // Navbar
+  .hideOnMobile {
+    display: none;
+  }
+
+  .nav__container {
+    min-width: 102%;
+  }
+
+  #sidebar-menu-btn--show {
+    display: block;
+    margin-right: -20px;
+  }
+
+  // Typoghaphy
+  .heading--primary {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+  .heading--secondary {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  // Header/Home
+  .header {
+    min-width: 102%;
+    background-image: linear-gradient(
+        (
+          to right bottom,
+          rgba($color-grey-light, 0.5),
+          rgba($color-grey-midium, 0.5)
+        )
+      ),
+      url("../../images/bg-small.jpg");
+
+    .headline-box {
+      padding: 0.5rem 1rem;
+      padding-top: 1rem;
+      top: -27%;
+      width: 25rem;
+
+      .action-btn-group {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+
+        a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  // Section About
+  .section__about {
+    min-width: 100%;
+  }
+  .card {
+    min-width: 95%;
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    ul li {
+      min-width: 70%;
+    }
+  }
+
+  // Section Contact
+  .section__contact {
+    min-width: 100%;
+
+    .address-info-box {
+      font-size: 0.7rem;
+      flex-direction: column;
+
+      .map-box {
+        margin-top: 4px;
+
+        iframe {
+          min-height: 70vh;
+        }
+      }
+    }
+  }
+
+  // Footer
+  .footer {
+    min-width: 102%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .developer {
+      position: relative;
+    }
+  }
+}
+
+/// Midium screen
+@media (max-width: 770px) {
+  // Navbar
+  .hideOnMobile {
+    display: none;
+  }
+
+  .nav__container {
+    min-width: 104%;
+  }
+
+  #sidebar-menu-btn--show {
+    display: block;
+    margin-right: -20px;
+  }
+
+  // Typoghaphy
+  .heading--primary {
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+  .heading--secondary {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+
+  // Header/Home
+  .header {
+    min-width: 104%;
+    background-image: linear-gradient(
+        (
+          to right bottom,
+          rgba($color-grey-light, 0.5),
+          rgba($color-grey-midium, 0.5)
+        )
+      ),
+      url("../../images/bg-small.jpg");
+
+    .headline-box {
+      padding: 0.5rem 1rem;
+      padding-top: 1rem;
+      top: -27%;
+      width: 40rem;
+
+      .action-btn-group {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+
+        a {
+          font-size: 1.2rem;
+          padding: 10px 1px;
+        }
+      }
+    }
+  }
+
+  // Section About
+  .section__about {
+    min-width: 104%;
+  }
+  .card {
+    .card-text {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    min-width: 95%;
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    ul li {
+      min-width: 70%;
+    }
+  }
+
+  // Section Contact
+  .section__contact {
+    min-width: 100%;
+
+    .address-info-box {
+      flex-direction: column;
+
+      .address {
+        font-size: 1.2rem;
+      }
+      .map-box {
+        margin-top: 4px;
+
+        iframe {
+          min-height: 70vh;
+        }
+      }
+    }
+  }
+
+  // Footer
+  .footer {
+    min-width: 105%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .developer {
+      position: relative;
+    }
+  }
+}
+
+////////////////////////////////////
+/// VERY SMALL SCREEN      /////////
+/// ////////////////////////////////
+@media (max-width: 440px) {
+  // Typoghaphy
+  .heading--primary {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+  .heading--secondary {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .sidebar {
+    min-width: 100%;
+  }
+  .nav__container {
+    min-width: 101%;
+  }
+
+  // Header/Home
+  .header {
+    min-width: 100%;
+    background-image: linear-gradient(
+        (
+          to right bottom,
+          rgba($color-grey-light, 0.5),
+          rgba($color-grey-midium, 0.5)
+        )
+      ),
+      url("../../images/bg-xtra-small.jpg");
+
+    .headline-box {
+      min-width: 70%;
+      padding-top: 1rem;
+      width: 90%;
+      top: -27%;
+
+      .action-btn-group {
+        margin-top: 0.5rem;
+        display: flex;
+
+        a {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  // Section About
+  .section__about {
+    min-width: 100%;
+  }
+  .card {
+    min-width: 95%;
+    .card-text {
+      font-size: 1rem;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    ul li {
+      min-width: 70%;
+    }
+  }
+
+  // Section Contact
+  .section__contact {
+    min-width: 102%;
+
+    .address-info-box {
+      font-size: 0.7rem;
+      flex-direction: column;
+
+      .address {
+        font-size: 0.9rem;
+      }
+
+      .map-box {
+        margin-top: 4px;
+
+        iframe {
+          min-height: 70vh;
+        }
+      }
+    }
+  }
+
+  // Footer
+  .footer {
+    min-width: 102%;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .developer {
+      position: relative;
+    }
+  }
+}

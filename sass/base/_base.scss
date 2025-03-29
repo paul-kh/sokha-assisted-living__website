@@ -1,0 +1,15 @@
+// Global Reset
+
+*, // universal reset
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; // Make all interitable components to inherit box sizing of their parent component
+}
+
+body {
+  // root reset
+  color: black;
+  box-sizing: border-box;
+}

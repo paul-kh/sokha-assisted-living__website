@@ -1,0 +1,14 @@
+.footer {
+  background-color: $color-black;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+
+  .developer {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+  }
+}
