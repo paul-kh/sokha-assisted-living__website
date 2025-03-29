@@ -302,11 +302,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .footer .developer {
-    position: absolute;
-    bottom: 0;
-    right: 1rem; }
+    position: relative; }
 
 .card {
   min-width: 30rem;
