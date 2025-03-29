@@ -232,7 +232,7 @@ body {
 
 .header {
   height: 99vh;
-  background-image: linear-gradient(to right bottom, rgba(246, 247, 249, 0.5), rgba(235, 229, 232, 0.5)), url("../../images/bg-04.jpg");
+  background-image: linear-gradient(to right bottom, rgba(246, 247, 249, 0.5), rgba(235, 229, 232, 0.5)), url("../assets/images/bg-large.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -350,9 +350,9 @@ body {
     height: 23rem;
     background-size: cover; }
     .card .picture-1 {
-      background-image: url("../../images/gallery-03.jpg"); }
+      background-image: url("../assets/images/gallery-03.jpg"); }
     .card .picture-2 {
-      background-image: url("../../images/gallery-04.jpg"); }
+      background-image: url("../assets/images/gallery-04.jpg"); }
 
 @media (max-width: 800px) {
   .hideOnMobile {
