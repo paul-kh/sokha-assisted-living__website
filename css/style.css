@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: inherit; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   color: black;
   box-sizing: border-box; }
@@ -90,8 +93,14 @@ body {
 .pt-4 {
   padding-top: 4rem; }
 
+.pt-8 {
+  padding-top: 8rem; }
+
 .pb-4 {
   padding-bottom: 4rem; }
+
+.pb-8 {
+  padding-bottom: 8rem; }
 
 .m-1 {
   margin: 1rem; }
@@ -117,6 +126,12 @@ body {
 .mb-4 {
   margin-bottom: 4rem; }
 
+.mb-8 {
+  margin-bottom: 8rem; }
+
+.m-4 {
+  margin: 4rem; }
+
 .mt-1 {
   margin-top: 1rem; }
 
@@ -128,6 +143,9 @@ body {
 
 .mt-4 {
   margin-top: 4rem; }
+
+.mt-8 {
+  margin-top: 8rem; }
 
 .page__container {
   max-width: 85rem;
@@ -307,8 +325,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .footer .developer {
-    position: relative; }
+
+.footer__tex-box {
+  position: absolute;
+  top: 70%;
+  text-align: center; }
 
 .card {
   min-width: 30rem;

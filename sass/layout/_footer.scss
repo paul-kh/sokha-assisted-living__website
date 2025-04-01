@@ -10,7 +10,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .developer {
-    position: relative;
-  }
+}
+
+.footer__tex-box {
+  position: absolute;
+  top: 70%;
+  text-align: center;
 }

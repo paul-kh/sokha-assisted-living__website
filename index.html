@@ -13,14 +13,25 @@
   </head>
   <body>
     <div class="nav__container">
-      <nav class="nav">      
+      <nav class="nav">
         <!-- SIDEBAR NAVIGATION ON SMALL SCREEN -->
         <ul class="sidebar">
           <li id="sidebar-menu-btn--hide">
             <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-            </a></li>
-          <li><a class="nav-link" href="#header">Home</a> </li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#ffffff"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li><a class="nav-link" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About Us</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -28,88 +39,126 @@
         <!-- NAVBAR ON LARGER SCREEN -->
         <ul class="navbar heading--tertiary">
           <li>
-            <a  href="#header">
+            <a href="#header">
               <img
                 src="./assets/images/logo_transparent.png"
                 alt="Logo image of Sokha Assisted Living"
-            /></a></li>
-          <li class="hideOnMobile"><a class="nav-link" href="#header">Home</a> </li>
-          <li class="hideOnMobile"><a class="nav-link" href="#about">About Us</a></li>
-          <li class="hideOnMobile"><a class="nav-link" href="#contact">Contact</a></li>
+            /></a>
+          </li>
+          <li class="hideOnMobile">
+            <a class="nav-link" href="#header">Home</a>
+          </li>
+          <li class="hideOnMobile">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="hideOnMobile">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
           <li id="sidebar-menu-btn--show">
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#ffffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26px"
+                viewBox="0 -960 960 960"
+                width="26px"
+                fill="#ffffff"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
         </ul>
       </nav>
     </div>
-      <header id="header" class="header text-center">
-        <div class="headline-box text-pink--dark">
-          <h2 class="heading--secondary">Welcome to</h2>
-          <h1 class="heading--primary">Sokha Assisted Living.</h1>
-          <h2 class="heading--secondary">We provide quality care to our residents.</h2>
-          <div class="action-btn-group mt-2">
-            <a href="#about" class="action-btn__about heading--tertiary">More About Us</a>
-            <a href="#contact" class="action-btn__contact heading--tertiary">Contact Us</a>
-          </div>
+    <header id="header" class="header text-center">
+      <div class="headline-box text-pink--dark">
+        <h2 class="heading--secondary">Welcome to</h2>
+        <h1 class="heading--primary">Sokha Assisted Living.</h1>
+        <h2 class="heading--secondary">
+          We provide quality care to our residents.
+        </h2>
+        <div class="action-btn-group mt-2">
+          <a href="#about" class="action-btn__about heading--tertiary"
+            >More About Us</a
+          >
+          <a href="#contact" class="action-btn__contact heading--tertiary"
+            >Contact Us</a
+          >
         </div>
-      </header>
-      <main class="page__container text-center">
+      </div>
+    </header>
+    <main class="page__container text-center">
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section__about pt-8 pb-8">
+        <h1 class="heading--primary text-black pb-8">About Us</h1>
 
-        <!-- ABOUT SECTION -->
-        <div id="about" class="section__about pt-4 pb-4">
-          <h1 class="heading--primary text-black mb-4">About Us</h1>
-
-          <div class="card-container">
-            <div class="card  text-black">
-              <div class="picture picture-1"></div>
-              <div class="card-text-box">
-                <h2 class="heading--secondary text-pink--dark mb-1">Our Vision</h2>
-                <p class="card-text"> 
-                  Our vision is to build and maintain reputation of excellence in providing quality care to our 
-                  residents with great hospitality-oriented environment, and cheerful and honest services.
-                </p>
-              </div>
-            </div>
-            
-            <div class="card text-black">
-              <div class="picture picture-2"></div>
-              <div class="card-text-box text-center">
-                <h2 class="heading--secondary text-pink--dark mb-1">Our Core Values</h2>
-                <ul class="card-text">
-                  <li>Compassion</li>
-                  <li>Respect diversity</li>
-                  <li>Integrity</li>
-                  <li>Decency</li>
-                  <li>Equality</li>
-                  <li>Genuine</li>
-                </ul> 
-            </div>
+        <div class="card-container">
+          <div class="card text-black">
+            <div class="picture picture-1"></div>
+            <div class="card-text-box">
+              <h2 class="heading--secondary text-pink--dark mb-1">
+                Our Vision
+              </h2>
+              <p class="card-text">
+                Our vision is to build and maintain reputation of excellence in
+                providing quality care to our residents with great
+                hospitality-oriented environment, and cheerful and honest
+                services.
+              </p>
             </div>
           </div>
-        </section>
 
-
-        <!-- CONTACT SECTION -->
-        <div id="contact" class="section__contact pt-4">
-          <h1 class="heading--primary text-black mb-2">Contact Us</h1>
-          <div class="address-info-box text-white">
-            <div class="address heading--tertiary pb-1">
-              <img src="./assets/images/building-imagage.png" alt="Building photo of Sokha Assisted Living">
-              <p class="mt-1">2217 Meridian Dr, Shakopee, MN 55379-3917</p>
-              <p>(952) 977-9825 | (952) 564-1606 | (651) 757-0266</p>
-              <p>sokhaassistedliving@gmail.com</p>
-            </div>
-            <div class="map-box">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5662.835642423536!2d-93.49258194718912!3d44.79267295223251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f617572bfce8fb%3A0x333c47737993563d!2s2217%20Meridian%20Dr%2C%20Shakopee%2C%20MN%2055379!5e0!3m2!1sen!2sus!4v1743137709746!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="card text-black">
+            <div class="picture picture-2"></div>
+            <div class="card-text-box text-center">
+              <h2 class="heading--secondary text-pink--dark mb-1">
+                Our Core Values
+              </h2>
+              <ul class="card-text">
+                <li>Compassion</li>
+                <li>Respect diversity</li>
+                <li>Integrity</li>
+                <li>Decency</li>
+                <li>Equality</li>
+                <li>Genuine</li>
+              </ul>
             </div>
           </div>
         </div>
-      </main>
-    </div>
-    <footer class="footer text-white"> 
-      <p class="copy-right">&copy; 2025 Sokha Assisted Living. All rights reserved.</p>
-      <p class="developer">Powered by Paul Chheang</p>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="section__contact pt-8 pb-8">
+        <h1 class="heading--primary text-black pb-8">Contact Us</h1>
+        <div class="address-info-box text-white" pb-8>
+          <div class="address heading--tertiary pb-1">
+            <img
+              src="./assets/images/building-imagage.png"
+              alt="Building photo of Sokha Assisted Living"
+            />
+            <p class="mt-1">2217 Meridian Dr, Shakopee, MN 55379-3917</p>
+            <p>(952) 977-9825 | (952) 564-1606 | (651) 757-0266</p>
+            <p>sokhaassistedliving@gmail.com</p>
+          </div>
+          <div class="map-box pb-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5662.835642423536!2d-93.49258194718912!3d44.79267295223251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f617572bfce8fb%3A0x333c47737993563d!2s2217%20Meridian%20Dr%2C%20Shakopee%2C%20MN%2055379!5e0!3m2!1sen!2sus!4v1743137709746!5m2!1sen!2sus"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer pt-2 pb-8">
+      <div class="footer__tex-box text-white">
+        <p>&copy; 2025 Sokha Assisted Living. All rights reserved.</p>
+        <p>Powered by Paul Chheang</p>
+      </div>
     </footer>
     <script src="./scripts/app.js"></script>
   </body>
-  
 </html>
